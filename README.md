@@ -6,17 +6,17 @@ Welcome to my GitHub repository for the Web Development Internship at CodSoft. H
 
 ## Tasks
 
-1. **Task Name 1**
-   - Brief description of the task.
-   - Any specific requirements or technologies used.
+1. **Interio Landing Page**
+   - Responsive landing page for an interior design and renovation company.
+   - HTML5, CSS3, JavaScript, JQuery
 
-2. **Task Name 2**
-   - Brief description of the task.
-   - Any specific requirements or technologies used.
+2. **Calculator**
+   - Simple arithmetic operations calculator using JavaScript.
+   - HTML5, CSS3, JavaScript.
 
-3. **Task Name 3**
-   - Brief description of the task.
-   - Any specific requirements or technologies used.
+3. **Personal Portfolio Website**
+   - My personal portfolio website that lists my projects, skills and includes a contact form along with contact information.
+   - HTML5, CSS3, JavaScript, JQuery, Contact Form Processing using third-party tool smtpJs(elastic-emails).
 
 
 ## Feedback and Contributions
