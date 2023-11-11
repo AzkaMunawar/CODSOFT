@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Hero Section -->
+    <section id="hero">
+        <header>
+            <a href="" class="logo-name">AZKA</a>
+            <i class="fa-solid fa-bars" onclick="showHideMenu()" id="menuBars"></i>
+            <nav id="ToggleMenu">
+                <ul>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <li class="for-mobile"><a
+                            href="https://drive.google.com/file/d/1RmBbTGhyig7_hBXOHapjr06nyIvxRq2O/view?usp=sharing"
+                            target="_blank" rel="noopener noreferrer" class="btn secondary">VIEW RESUME</a></li>
+                </ul>
+            </nav>
+            <a href="https://drive.google.com/file/d/1RmBbTGhyig7_hBXOHapjr06nyIvxRq2O/view?usp=sharing" target="_blank"
+                rel="noopener noreferrer" class="btn secondary for-wideScreen">VIEW RESUME</a>
+        </header>
+        <div class="hero-content">
+
+            <p class="hero-subtitle">👋, My name is Azka Munawar</p>
+
+            <h1>I'm a Web Development Enthusiast</h1>
+
+            <p class="hero-text">
+                Based in Sargodha, Pakistan.
+            </p>
+
+            <a href="#projects" class="btn secondary">Let's Start</a>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+
+    <section id="about">
+
+
+
+
+        <div class="about-img">
+            <img src="Images/about.png">
+        </div>
+
+        <div class="about-content">
+
+            <h2>I'm a Software Engineering Student & Web Development Enthusiast.</h2>
+
+            <p>
+                Passionate about Full Stack Development, I'm currently mastering CSS, JavaScript and React for frontend
+                development. Alongside, I've gained hands-on experience in WordPress, exploring page builders like
+                Elementor, and diving into the intricacies of e-commerce development.
+            </p>
+
+
+            <div class="buttons">
+                <a href="#contact" class="btn secondary">Contact Me</a>
+
+                <a href="#projects" class="btn primary">View Projects</a>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!-- Skills Section -->
+
+    <section id="skills">
+
+
+
+
+        <h2>My Skills</h2>
+
+        <ul class="skill-list">
+
+            <li>
+                <div class="card">
+
+                    <div class="card-media">
+                        <ion-icon name="logo-html5"></ion-icon>
+                    </div>
+
+                    <h2 class="card-title">HTML</h2>
+
+                </div>
+            </li>
+
+            <li>
+                <div class="card">
+
+                    <div class="card-media">
+                        <ion-icon name="logo-css3"></ion-icon>
+                    </div>
+
+                    <h2 class="card-title">CSS</h2>
+
+                </div>
+            </li>
+
+            <li>
+                <div class="card">
+
+                    <div class="card-media">
+                        <ion-icon name="logo-javascript"></ion-icon>
+                    </div>
+
+                    <h2 class="card-title">JavaScript</h2>
+
+                </div>
+            </li>
+
+            <li>
+                <div class="card">
+
+                    <div class="card-media">
+                        <ion-icon name="logo-react"></ion-icon>
+                    </div>
+
+                    <h2 class="card-title">React</h2>
+
+                </div>
+            </li>
+
+            <li>
+                <div class="card">
+
+                    <div class="card-media">
+                        <ion-icon name="logo-figma"></ion-icon>
+                    </div>
+
+                    <h2 class="card-title">Figma</h2>
+
+                </div>
+            </li>
+
+            <li>
+                <div class="card">
+
+                    <div class="card-media">
+                        <ion-icon name="logo-wordpress"></ion-icon>
+                    </div>
+
+                    <h2 class="card-title">WordPress</h2>
+
+                </div>
+            </li>
+
+        </ul>
+
+
+
+    </section>
+
+
+    <!-- Resume Section -->
+
+    <section id="resume">
+        <h2>Here is my Resume!</h2>
+        <a href="https://drive.google.com/uc?export=download&id=1RmBbTGhyig7_hBXOHapjr06nyIvxRq2O"
+            download="Azka Munawar.pdf" class="btn secondary">Download Resume</a>
+
+
+
+    </section>
+
+
+    <!-- Projects Section -->
+
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="project">
+            <div class="img">
+                <a href="https://azkamunawar.github.io/TinDog/" target="_blank"><img src="Images/Tindog2.png"
+                        alt=""></a>
+                <a href="https://azkamunawar.github.io/TinDog/" target="_blank" class="icon"><ion-icon
+                        name="arrow-forward-outline"></ion-icon></a>
+            </div>
+            <div class="content">
+
+                <span class="category">Web Development</span>
+                <h2 class="title">TinDog Landing Page</h2>
+                <p class="description">Tindog is a responsive landing page for a dog app, crafted with HTML, CSS, and
+                    Bootstrap. It features a Bootstrap carousel, a pricing table, and ensures full responsiveness.</p>
+                <a href="https://azkamunawar.github.io/TinDog/" class="btn secondary" target="_blank">View Project</a>
+            </div>
+
+        </div>
+
+        <div class="project">
+
+            <div class="content">
+                <span class="category">Web Development</span>
+                <h2 class="title">Interio Landing Page</h2>
+                <p class="description">Interio is a fully responsive landing page designed for interior design or
+                    renovation companies. It includes a dynamic testimonial slider, pleasing aesthetics, and grid
+                    layout. Developed with HTML, CSS, and JavaScript.</p>
+                <a href="https://azkamunawar.github.io/interio/" class="btn secondary" target="_blank">View Project</a>
+            </div>
+
+            <div class="img">
+                <a href="https://azkamunawar.github.io/interio/"><img src="Images/Interio.png" alt="Interio landing page project image" target="_blank"></a>
+                <a href="https://azkamunawar.github.io/interio/" class="icon" target="_blank"><ion-icon name="arrow-forward-outline"></ion-icon></a>
+            </div>
+
+        </div>
+
+
+        <div class="project">
+            <div class="img">
+                <a href="https://azkamunawar.github.io/simple-life-blog/" target="_blank"><img
+                        src="Images/SimpleBlog.png" alt=""></a>
+                <a href="https://azkamunawar.github.io/simple-life-blog/" target="_blank" class="icon"><ion-icon
+                        name="arrow-forward-outline"></ion-icon></a>
+            </div>
+
+            <div class="content">
+                <span class="category">Web Development</span>
+                <h2 class="title">Living the Simple Life Blog</h2>
+                <p class="description">Living the Simple Life is a responsive blog website built with HTML and CSS. It
+                    features a 2-column layout, including a sidebar.</p>
+                <a href="https://azkamunawar.github.io/simple-life-blog/" class="btn secondary" target="_blank">View
+                    Project</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact Section -->
+
+    <section id="contact">
+
+
+        <div class="container">
+
+            <form action="" class="contact-form" onsubmit="sendEmail(); reset(); return false;" autocomplete="off">
+
+                <h2 id="form-title">Get in touch</h2>
+
+                <p class="form-text">
+                    Our friendly team would love to hear from you.
+                </p>
+
+                <div class="wrapper">
+
+                    <div>
+                        <label for="name" class="label" >Full Name</label>
+
+                        <input type="text" name="name" id="name" placeholder="Name *" required class="input-field">
+                    </div>
+
+                    <div>
+                        <label for="email" class="label">Your Email </label>
+
+                        <input type="email" name="email" id="email" placeholder="Email *" required class="input-field">
+                    </div>
+
+                </div>
+
+                <label for="subject" class="label">Subject</label>
+                <input type="text" name="subject" id="subject" placeholder="Subject *" class="input-field">
+
+                <label for="message" class="label">Your Message </label>
+                <textarea name="message" id="message" placeholder="Your message *" required
+                    class="input-field"></textarea>
+
+                <button type="submit" class="btn secondary">Send Message</button>
+
+            </form>
+
+            <div class="contact-content">
+
+                <ul class="contact-list">
+
+                    <li class="contact-item">
+
+                        <div class="item-icon">
+                            <ion-icon name="call" aria-hidden="true"></ion-icon>
+                        </div>
+
+                        <div>
+                            <p class="label-content">Phone</p>
+
+                            <a href="tel:+923498463683" class="body-content">+92 349 846 3683</a>
+                        </div>
+
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="item-icon">
+                            <ion-icon name="mail" aria-hidden="true"></ion-icon>
+                        </div>
+
+                        <div>
+                            <p class="label-content">Mail</p>
+
+                            <a href="mailto:azkamunawar2022@gmail.com"
+                                class="body-content">azkamunawar2022@gmail.com</a>
+                        </div>
+
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="item-icon">
+                            <ion-icon name="logo-linkedin"></ion-icon></a>
+                        </div>
+
+                        <div>
+                            <p class="label-content">LinkedIn</p>
+
+                            <a class="body-content" href="https://www.linkedin.com/in/azkamunawar/" target="_blank">
+                                linkedin.com/in/azkamunawar
+                            </a>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <footer>
+        <div class="social-icons">
+            <a href="https://github.com/AzkaMunawar/" class="link" target="_blank"><ion-icon
+                    name="logo-github"></ion-icon></a>
+            <a href="https://www.linkedin.com/in/azkamunawar" target="_blank" class="link"><ion-icon
+                    name="logo-linkedin"></ion-icon></a>
+            <a href="mailto:azkamunawar2022@gmail.com" class="link"><ion-icon name="mail-unread-outline"></ion-icon></a>
+        </div>
+
+        <span class="copyright-notice">Copyright © 2023 Azka Munwar</span>
+
+        <button onclick="topFunction()" id="myBtn"  title="Scroll to the top of the page."><ion-icon name="arrow-up-outline"></ion-icon></button>
+
+    </footer>
+
+
+
+
+
+    <!-- Ion Icons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!--jQuery cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js" ></script>
+
+
+    <!-- smtpjs for sending email -->
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+
+
+    <!-- custom index.js file -->
+
+    <script src="index.js" defer="defer"></script>
+
+</body>
+
+</html>
