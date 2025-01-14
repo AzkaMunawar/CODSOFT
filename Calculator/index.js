@@ -2,7 +2,6 @@ const display=document.querySelector("#displayScreen");
 const buttons=document.querySelectorAll("button");
 const operators=["%","/","-","+","*","="];
 let output="";
-// kk
 
 const calculate=(btnValue)=>{
     if(btnValue==="=" && output!==""){
